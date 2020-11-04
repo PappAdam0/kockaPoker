@@ -11,10 +11,9 @@ namespace kockaPoker
     {
         static void Main(string[] args)
         {
-            Dobas d = new Dobas(1,1,1,3,4);
+            Dobas d = new Dobas(1,1,1,3,3);
             //d.EgyDobas();
             d.Kiiras();
-            d.Erteke();
             Console.WriteLine(d.Erteke());
 
             Console.ReadKey();

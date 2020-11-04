@@ -67,6 +67,11 @@ namespace kockaPoker
             {
                 r= "Pár";
             }
+            else if (eredmenyek.ContainsValue(2) && eredmenyek.ContainsValue(3))
+            {
+                r = "Full";
+            }
+
             return r;
         }
            
