@@ -59,6 +59,10 @@ namespace kockaPoker
             {
                 r= "Póker";
             }
+            else if (eredmenyek.ContainsValue(2) && eredmenyek.ContainsValue(3))
+            {
+                r = "Full";
+            }
             else if (eredmenyek.ContainsValue(3))
             {
                 r= "Drill";
@@ -67,10 +71,7 @@ namespace kockaPoker
             {
                 r= "Pár";
             }
-            else if (eredmenyek.ContainsValue(2) && eredmenyek.ContainsValue(3))
-            {
-                r = "Full";
-            }
+           
 
             return r;
         }
